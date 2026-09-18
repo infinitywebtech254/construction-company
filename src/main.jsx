@@ -440,7 +440,7 @@ function App() {
           <h4>CONTACT</h4>
 
           <a href="tel:+254712345678">
-            +254 712 345 678
+            +254 722 345 875
           </a>
 
           <a href="mailto:hello@apexformworks.co.ke">
