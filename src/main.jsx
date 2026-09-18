@@ -439,7 +439,7 @@ function App() {
         <div className="footer-column">
           <h4>CONTACT</h4>
 
-          <a href="tel:+254712345678">
+          <a href="tel:+254722345875">
             +254 722 345 875
           </a>
 
