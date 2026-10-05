@@ -6,11 +6,25 @@ export default function Build() {
     <ServiceDetailPage
       number="01"
       eyebrow="BUILD"
-      title="GROUND-UP"
-      accent="CONSTRUCTION."
+
+      title={
+        <>
+          GROUND-UP
+        </>
+      }
+
+      accent={
+        <span className="long-service-title">
+          CONSTRUCTION.
+        </span>
+      }
+
       intro="From the first site conversation to final handover, we coordinate the people, materials and decisions required to turn plans into finished spaces."
+
       heroImage="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=85"
+
       overview="New construction requires more than getting work started on site. We approach each build as a coordinated process — aligning scope, structure, materials, workmanship and finishing so the completed property reflects the original intent."
+
       capabilities={[
         "Residential construction",
         "Commercial construction",
@@ -19,6 +33,7 @@ export default function Build() {
         "Finishes and detailing",
         "Site coordination"
       ]}
+
       process={[
         {
           title: "Consultation",
@@ -41,7 +56,9 @@ export default function Build() {
           text: "Final works are inspected, outstanding details are addressed and the completed space is handed over."
         }
       ]}
+
       secondaryImage="https://images.unsplash.com/photo-1541976590-713941681591?auto=format&fit=crop&w=1500&q=85"
+
       closingTitle={
         <>
           PLANNING A
@@ -49,6 +66,7 @@ export default function Build() {
           <span>NEW BUILD?</span>
         </>
       }
+
       closingText="Tell us about the property you're planning, where the site is located and what you want the finished space to achieve."
     />
   );
